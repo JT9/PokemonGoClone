@@ -13,6 +13,7 @@
 		60AD851E1F8E1A43009E35BA /* PokemonGoClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60AD851C1F8E1A43009E35BA /* PokemonGoClone.xcdatamodeld */; };
 		60AD85201F8E1A43009E35BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60AD851F1F8E1A43009E35BA /* Assets.xcassets */; };
 		60AD85231F8E1A43009E35BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AD85211F8E1A43009E35BA /* LaunchScreen.storyboard */; };
+		60AD852C1F8E1B28009E35BA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60AD852B1F8E1B28009E35BA /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		60AD851F1F8E1A43009E35BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60AD85221F8E1A43009E35BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60AD85241F8E1A43009E35BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60AD852B1F8E1B28009E35BA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60AD852C1F8E1B28009E35BA /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				60AD85141F8E1A43009E35BA /* PokemonGoClone */,
 				60AD85131F8E1A43009E35BA /* Products */,
+				60AD852A1F8E1B28009E35BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				60AD851C1F8E1A43009E35BA /* PokemonGoClone.xcdatamodeld */,
 			);
 			path = PokemonGoClone;
+			sourceTree = "<group>";
+		};
+		60AD852A1F8E1B28009E35BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60AD852B1F8E1B28009E35BA /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
